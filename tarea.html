@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+</head>
+<body>
+    <!--Ejercicio 1-->
+    <form>
+        <h1>Formulario WEB basico</h1>
+        <hr>
+        <fieldset>            
+            <legend>Informacion del usuario</legend>
+            Nombre:<input type="text" placeholder="Nombre de usuario...">
+            <br>
+            <br>
+            Direccion e-mail:<input type="email">
+            <p>
+                Ciudad:<select name="ciudad">
+                            <option>Selecciona cuidad...</option>
+                            <option>Arequipa</option>
+                            <option>Puno</option>
+                    </select>
+            <br>
+            <p>
+                Aficiones:<br>
+                <input type="checkbox" value="Deportes">Deportes<br>
+                <input type="checkbox" value="Coches">Coches<br>
+                <input type="checkbox" value="Musica">Musica<br>
+            </p>
+        </fieldset>
+    </form>
+    <br>
+    <!--Ejercicio 2-->
+    <br>    
+    <form style="background-color: green; color: rgb(255, 255, 255);">
+        <br>
+        <blockquote>
+        <table>
+            Datos del operador
+            <td>
+                <blockquote>
+                <table>
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input type="text" name="Nombre" size="30" placeholder="Escribe tu nombre completo..."></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name="Emal" size="30" placeholder="Ejemplo@um.es"></td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono &nbsp;&nbsp;&nbsp;</td>
+                        <td><input type="text" name="Emal" size="30" placeholder="Ej. +34668899999"></td>
+                    </tr>
+                    <tr>
+                        <td>País</td>
+                        <td><input type="text" name="Emal" size="30"></td>
+                    </tr>
+                </table>
+                </blockquote>
+            </td>
+        </table>
+        <table>
+            Datos de targeta de crédito o débito
+            <td>
+                <blockquote>
+                    <table>
+                        <tr>
+                            <td>Número &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2"><input type="number" name="número" style="width: 240px;" placeholder="El. 5555-4444-3333-2222..."></td>
+                        </tr>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" name="Nombre" size="30" placeholder="Nombre que figura en la tarjeta"></td>
+                        </tr>
+                    </table>
+                </blockquote>
+            </td>
+        </table>
+        -------------------------------------------------
+        <br>
+        <input type="submit" value="Confirmar pedido">
+        </blockquote>
+        <br>
+    </form>
+    <br>
+    <!--Ejercicio 3-->
+    <br>
+    <form>
+        <table>
+            <tr>
+                <th colspan="3"><caption style="background-color: rgb(109, 230, 119);"><h3>Registro trabajadores</h3></caption></th>
+            </tr>
+            <tr>
+                <td>Rut:</td>
+                <td><input type="text" placeholder="Sin puntos ni guion"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Apellido Paterno:</td>
+                <td><input type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Apellido Materno:</td>
+                <td><input type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td colspan="2"><input type="radio" name="paises" value="Masculino">Masculino
+                    <input type="radio" name="paises" value="Femenino">Femenino</td>
+            </tr>
+            <tr>
+                <td>Nivel de estudio:</td>
+                <td><input type="checkbox">No tiene</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox">Técnico</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox">Universitario</td>
+            </tr>
+            <tr>
+                <td>Cuidad de nacimiento</td>
+                <td><select name="Cuida de nacimiento" lang="70">
+                    <option>Rancagua</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Curriculum</td>
+                <td><input type="file" name="Examinar..."></td>
+            </tr>
+            <tr>
+                <td>Foto</td>
+                <td><input type="file" value="Examinar..."></td>
+            </tr>
+            <tr>
+                <th colspan="3" style="background-color:  rgb(109, 230, 119)">
+                <input type="button" value="Registrar trabajador"></th>
+            </tr>        
+        </table>
+    </form>
+    <br>
+    <!--Ejercicio 4-->
+    <br>
+    <table>
+        <form>
+            <table>
+                <h2>Formulario de alta</h2>
+                <tr>
+                    <td><h3><b>Nombre y Apellidos<span style="color: red;">*</span></b></h3></td>
+                    <td colspan="2"><h3><b>Direccion<span style="color: red;">*</span></b></h3></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td colspan="2"><input type="text" size="40"></td>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td colspan="2">Calle, número, piso, puerta</td>
+                </tr>
+                <tr>
+                    <td><input type="text" size="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="text" size="10"></td>
+                    <td><input type="text" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Primer Apellido</td>
+                    <td>Código postal</td>
+                    <td>Municipio</td>
+                </tr>
+                <tr>
+                    <td><input type="text" size="40"></td>
+                    <td><select style="width: 100px;">
+                        <option value="0"></option>
+                    </select></td>
+                    <td><select style="width: 160px;">
+                        <option value="0"></option>
+                    </select></td>
+                </tr>
+            </table>
+            <br>
+            <table> 
+                <tr>
+                    <td><h3><b>Email</b></h3></td>
+                    <td colspan="2"><h3><b>Teléfono</b></h3></td>
+                </tr>
+                <tr>
+                    <td><input type="email" size="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="number" size="10"></td>
+                    <td><input type="number" size="20"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Fijo</td>
+                    <td>Móvil</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><hr size="4"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="button" value="Darme de alta →" style="float: right;"></td>
+                </tr>
+            </table>
+            <table>
+            </table>
+        </form>
+    </table>
+</body>
+</html>

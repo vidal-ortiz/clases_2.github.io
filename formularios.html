@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <h1>FORMULARIOS</h1>
+        Nombre:     <input type="text" required ><span style="color: red;">*</span><br>
+        Apellido:   <input type="text" placeholder="Ingresa Tu apellido"><br>
+        Edad:       <input type="number"><br>
+        Fecha:      <input type="datetime-local"><br>
+        email:      <input type="email"><br>
+        contraceña: <input type="password"><br>
+        color:      <input type="color"><br>
+        rango:      <input type="range"><br>
+        </fieldset>
+        <br>
+        <hr>
+        <hr>
+        <br>
+
+        <input type="button" value="tocame">
+        <input type="checkbox"> <br>
+        <input type="radio"><br>
+        <input type="reset">
+        <input type="file" name="Examinar" accept=".docx">
+
+        <hr>
+        <fieldset>
+            <legend>Seleciona pais</legend>
+            <input type="radio" name="paises" value="peru" checked>Perú<br>
+            <input type="radio" name="paises" value="Brazil">Brazil<br>
+            <input type="radio" name="paises" value="chile">Chile<br>
+            <input type="radio" name="paises" value="colombia">Colombia<br>
+            <input type="radio" name="paises" value="bolivia">Bolivia<br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Hobiies</legend>
+            <input type="checkbox" value="natación" checked>natación<br>
+            <input type="checkbox" value="voleiball">voleiball<br>
+            <input type="checkbox" value="equitacion">equitacion<br>
+        </fieldset>
+        <p>
+            <select name="Selecciona">
+                <option>rojo</option>
+                <option>verde</option>
+                <option>azul</option>
+            </select>
+        </p>
+        <p><input type="submit"></p>
+        <p><input type="reset"></p>
+    </form>
+</body>
+</html>
